@@ -1,0 +1,100 @@
+body{
+    margin-top: 250px;}
+h1{
+    text-align: center;
+}
+.main{
+   display:flex;
+   justify-content: center;
+}
+.dice{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 4px;
+    /*justify-content: space-between;*/
+    
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  .dot{
+    display: block;
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+  }
+
+  #dice1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #dice2{
+    display: flex;
+    justify-content: space-between;
+  }
+
+#dice2 .dot:nth-child(2){
+    align-self: flex-end;
+}
+
+#dice3{
+  display: flex;
+  justify-content: space-between;
+}
+
+#dice3 .dot:nth-child(2){
+  align-self: center;
+}
+#dice3 .dot:nth-child(3){
+   align-self: flex-end;
+}
+
+#dice4{
+  display: flex;
+  justify-content: space-between;
+}
+#dice4 .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#dice5{
+  display: flex;
+  justify-content: space-between;
+}
+#dice5 .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#dice5 .column:nth-child(2){
+  justify-content: center;
+}
+
+#dice6{
+  display: flex;
+  justify-content: space-between;
+}
+#dice6 .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dice{
+  background-color: #d8e0ed;
+}
+
+body{
+  background-color: #111317;
+}
+
+h1{
+  color: white;
+}
